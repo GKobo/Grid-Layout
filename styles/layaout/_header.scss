@@ -1,0 +1,15 @@
+.header{
+    color: black;
+    height: 25%;
+    margin: 1em 2em;
+    display: grid;
+
+    &__elements{
+        // grid-template-columns: 1fr 2fr;
+    }
+
+    &__text{
+        width: 25%;
+        font-size: fs("mega");
+    }
+}

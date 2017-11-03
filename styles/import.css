@@ -1,38 +1,30 @@
 /*------------------------------------*\
                 LIB
 \*------------------------------------*/
-
-@import 'lib/variables.scss';
-@import 'lib/functions.scss';
-@import 'lib/helpers.scss';
-@import 'lib/mixin.scss';
-@import 'lib/reset.scss';
-
+/*------------------------------------*\
+		$FONT-SIZES
+\*------------------------------------*/
 /*------------------------------------*\
                 BASE
 \*------------------------------------*/
-
-@import 'base/typography.scss';
-
 /*------------------------------------*\
                 COMPONENTS
 \*------------------------------------*/
-
-@import 'components/buttons.scss';
-@import 'components/carousel.scss';
-@import 'components/dropdown.scss';
-@import 'components/input.scss';
-
 /*------------------------------------*\
                 LAYAOUT
 \*------------------------------------*/
-
-@import 'layaout/footer.scss';
-@import 'layaout/forms.scss';
-@import 'layaout/grid.scss';
-@import 'layaout/header.scss';
+.header {
+  color: black;
+  height: 25%;
+  width: 100%;
+  margin: 1em 2em;
+  display: grid; }
+  .header__text {
+    width: 25%;
+    font-size: fs("mega"); }
 
 /*------------------------------------*\
                 THEMES
 \*------------------------------------*/
 
+/*# sourceMappingURL=import.css.map */
